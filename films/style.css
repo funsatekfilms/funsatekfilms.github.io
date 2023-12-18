@@ -1,0 +1,32 @@
+h1, .placeholder{
+    color: white;
+    font-weight: 600px;
+}
+
+.placeholder{
+    text-align: center;
+}
+
+.films-text h1{
+    text-align: center;
+    font-size: 65px;
+}
+
+.films-posters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.films-posters img{
+    max-height: 600px;
+    padding: 10px;
+}
+
+@media (max-width:1230px){
+    .films-posters{
+        flex-direction:column;
+    }
+
+}

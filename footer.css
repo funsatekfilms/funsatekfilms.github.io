@@ -1,0 +1,14 @@
+footer{
+    margin-top: 40px;
+    background-color: rgb(32, 32, 32);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+footer h2, h3{
+    color: white;
+}
+
+footer .footer-items{
+    text-align: center;
+}
