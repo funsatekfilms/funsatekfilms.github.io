@@ -1,0 +1,51 @@
+.indev-text{
+    color: orange;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(32, 32, 32);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+    font-family: 'Roboto';
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color: rgb(156, 156, 156);
+}
+
+nav a:hover{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction:column;
+    }
+
+    nav{
+        padding: 10px 0;
+    }
+}
