@@ -3,6 +3,11 @@ h1, .placeholder{
     font-weight: 600px;
 }
 
+body{
+    background-color: #17181D;
+    font-family: 'Roboto';
+}
+
 .placeholder{
     text-align: center;
 }

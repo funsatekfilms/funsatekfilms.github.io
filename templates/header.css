@@ -9,7 +9,7 @@ a{
 header{
     display: flex;
     min-height: 70px;
-    background-color: rgb(32, 32, 32);
+    background-color: #17181D;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -25,10 +25,7 @@ header{
     height: 100px;
 }
 
-body{
-    background-color: rgb(22, 22, 22);
-    font-family: 'Roboto';
-}
+
 
 nav a{
     font-weight: 600;

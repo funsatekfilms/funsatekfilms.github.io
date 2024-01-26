@@ -5,10 +5,7 @@ footer{
     padding-bottom: 10px;
 }
 
-footer h2, h3{
-    color: white;
-}
-
 footer .footer-items{
     text-align: center;
+    color: white;
 }

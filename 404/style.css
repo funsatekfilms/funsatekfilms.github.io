@@ -1,0 +1,20 @@
+.items-404{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.items-404 h2{
+    color: gray;
+}
+
+body{
+    background-color: #17181D;
+    font-family: 'Roboto';
+}
+
+@media (max-width:450px){
+    .items-404{
+        font-size: 20px;
+    }
+}
