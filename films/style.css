@@ -1,10 +1,10 @@
 h1, .placeholder{
-    color: white;
+    color: var(--primary-txt-color);
     font-weight: 600px;
 }
 
 body{
-    background-color: #17181D;
+    background-color: var(--bg-color);
     font-family: 'Roboto';
 }
 

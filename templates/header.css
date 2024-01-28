@@ -9,7 +9,7 @@ a{
 header{
     display: flex;
     min-height: 70px;
-    background-color: #17181D;
+    background-color: var(--accent-color);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -30,16 +30,17 @@ header{
 nav a{
     font-weight: 600;
     padding-right: 10px;
-    color: rgb(156, 156, 156);
+    color: var(--txt-off);
     font-size: 20px;
+    transition: 0.3s;
 }
 
 nav a:hover{
-    color: white;
+    color: var(--primary-txt-color);
 }
 
 .nav-link-in{
-    color: white;
+    color: var(--primary-txt-color)
 }
 
 @media (max-width:700px){

@@ -1,9 +1,9 @@
 .placeholder{
     text-align: center;
-    color: white;
+    color: var(--primary-txt-color);
 }
 
 body{
-    background-color: #17181D;
+    background-color: var(--bg-color);
     font-family: 'Roboto';
 }

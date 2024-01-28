@@ -1,11 +1,11 @@
 footer{
     margin-top: 40px;
-    background-color: rgb(32, 32, 32);
+    background-color: var(--accent-color);
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
 footer .footer-items{
     text-align: center;
-    color: white;
+    color: var(--primary-txt-color);
 }

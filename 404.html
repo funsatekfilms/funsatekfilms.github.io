@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funsatek Films - 404 Not Found</title>
+    <title>404 Not Found</title>
     <link rel="icon" type="image/x-icon" href="/img/logo.ico">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="colors.css">
 
     <style>
 
@@ -23,7 +24,7 @@ a{
 header{
     display: flex;
     min-height: 70px;
-    background-color: #1b1c22;
+    background-color: var(--accent-color);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -44,16 +45,17 @@ header{
 nav a{
     font-weight: 600;
     padding-right: 10px;
-    color: rgb(156, 156, 156);
+    color: var(--txt-off);
     font-size: 20px;
+    transition: 0.3s;
 }
 
 nav a:hover{
-    color: white;
+    color: var(--primary-txt-color);
 }
 
 .nav-link-in{
-    color: white;
+    color: var(--primary-txt-color)
 }
 
 @media (max-width:700px){
@@ -68,19 +70,19 @@ nav a:hover{
 
 footer{
     margin-top: 40px;
-    background-color: #1b1c22;
+    background-color: var(--accent-color);
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
 footer .footer-items{
     text-align: center;
-    color: white;
+    color: var(--primary-txt-color)
 }
 
 .items-404{
     text-align: center;
-    color: white;
+    color: var(--primary-txt-color);
     font-size: 35px;
 }
 
@@ -88,8 +90,12 @@ footer .footer-items{
     color: gray;
 }
 
+.items-404 h5{
+    color: gray;
+}
+
 body{
-    background-color: #17181D;
+    background-color: var(--bg-color);
     font-family: 'Roboto';
 }
 
@@ -119,10 +125,14 @@ body{
         <h1>
             404 Not Found
         </h1>
-    
+
         <h2>
             This is not a film, is 404.
         </h2>
+    
+        <h5>
+            The requested URL is not found or was deleted
+        </h5>
     </div>
 
 

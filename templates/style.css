@@ -1,4 +1,4 @@
 body{
-    background-color: #17181D;
+    background-color: var(--bg-color);
     font-family: 'Roboto';
 }
